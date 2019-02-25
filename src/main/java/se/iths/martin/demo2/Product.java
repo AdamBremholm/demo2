@@ -10,6 +10,7 @@ import javax.persistence.Id;
 @Entity
 public class Product {
 
+
     private @Id @GeneratedValue long id;
     private String productName;
     private String description;
